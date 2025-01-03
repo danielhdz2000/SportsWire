@@ -16,6 +16,7 @@ Open your terminal or command prompt.
 Navigate to the folder where you want to store the project.
 Run the following command to clone the project repository:
 
+git clone https://github.com/danielhdz2000/SportsWire.git
 
 Navigate to the project folder
 cd sports-hub
