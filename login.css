@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1e90ff, #00bfff);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080.png?text=Sports+Background'); /* Replace with your sports-themed background */
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .login-container {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  .login-container input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    border: 2px solid #1e90ff;
+    border-radius: 6px;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .login-container input:focus {
+    outline: none;
+    border-color: #00bfff;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(120deg, #1e90ff, #00bfff);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background: linear-gradient(120deg, #00bfff, #1e90ff);
+  }
+  
+  .login-container .social-login {
+    margin: 15px 0;
+  }
+  
+  .login-container .social-login button {
+    width: 48%;
+    display: inline-block;
+    margin: 5px 1%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-container .social-login button:hover {
+    background: #555;
+  }
+  
+  .login-container a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Hub - Forum</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="forum.js" defer></script>
+</head>
+
+
+<body class="forum-page">
+
+      <!-- Header Section -->
+   <header class="header">
+    <div class="logo-container">
+        <a href="index.html">
+            <img src="images/sportswirelogo.png" alt="Sports Hub Logo" class="logo">
+        </a>
+        <h1>Sports Hub Forum</h1>
+    </div>
+    <nav class="navbar">
+        <a href="basketball.html">Basketball</a>
+            <a href="football.html">Futbol</a>
+            <a href="baseball.html">Baseball</a>
+            <a href="nfl.html">NFL</a>
+            <a href="news.html">News</a>
+            <a href="forum.html">Forum</a>
+            <a href="stats.html">Stats</a>
+            <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+ <!-- Forum Section -->
+ <main class="forum-container">
+    <h2>Welcome to the Sports Hub Forum</h2>
+
+    <!-- New Post Section -->
+    <div class="new-post">
+        <h3>Create a New Post</h3>
+        <form id="post-form">
+            <input type="text" id="user-name" placeholder="Your Name" required />
+            <textarea id="post-content" placeholder="Share your thoughts..." required></textarea>
+            <select id="post-category" required>
+                <option value="">Select Category</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Futbol">Futbol</option>
+                <option value="Baseball">Baseball</option>
+                <option value="NFL">NFL</option>
+            </select>
+            <button type="submit">Post</button>
+        </form>
+    </div>
+
+    <!-- Posts Section -->
+    <div class="posts-section">
+        <h3>Recent Posts</h3>
+        <div id="posts-container">
+            <p>No posts yet. Be the first to post!</p>
+        </div>
+    </div>
+</main>
+
+<div class="post-actions">
+    <button class="like-btn">Like</button>
+    <button class="reply-btn">Reply</button>
+    <button class="report-btn">Report</button>
+</div>
+
+
+
+<footer class="footer">
+    <p>&copy; 2025 News</p>
+</footer>
+
+</body>
+</html>
